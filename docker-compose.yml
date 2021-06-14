@@ -4,5 +4,5 @@ services:
   myubuntu:
     build: ./
     volumes:
-      - ./:/mnt
+      - ../:/mnt
     tty: true
