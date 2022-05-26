@@ -4,6 +4,5 @@ services:
   myubuntu:
     build: ./
     volumes:
-      - ../:/mnt
+      - ./:/mnt
     tty: true
-    working_dir: /mnt/08_03_git
