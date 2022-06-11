@@ -1,3 +1,3 @@
-def func(x, y):
+def square(x, y):
     z = x * y
     return z
